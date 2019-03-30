@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i');
+
+.container-fluid {
+    background-color: black;
+}
+
+.full-size-image {
+    width: 50%;
+    min-height:1px;
+    margin: 0 auto
+  }
+
+.full-size-image img {
+    width: 100%
+}
+
+#header-social-networks {
+    color: #fff;
+    word-spacing: 10px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.phone-number {
+    text-align: right;
+}
+
+#header-menu {
+    color:#191919;
+    font-family: 'Roboto', sans-serif;
+}
+
+#header-menu .menu {
+    text-align: right;
+    float: right;
+
+}
+
+#header-menu ul {
+    margin-bottom: 0;
+    display: flex;
+    padding-left: 0
+}
+
+
+#header-menu ul li {
+    list-style-type: none;
+    padding: 30px 10px;
+    font-size: 16px;
+    cursor: pointer
+}
+
+#header-menu ul li:last-of-type {
+    padding-right: 0
+}
+
+#header-menu ul li a:link {
+    color:#191919;
+    padding:20px;
+}
+
+#header-menu ul li a:hover {
+    text-decoration: none;
+}
+
+
+.logo {
+    padding-left: 0;
+    padding:3%;
+}
+
+
+.social-networks ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin-bottom: 0;
+    width:100%;
+
+}
+
+.social-networks ul li {
+    margin-right: 4%;
+    color:#9999cc;
+}
+
+.social-networks ul li a:link,
+.social-networks ul li a:visited {
+    color:#9999cc;
+}
+
+.social-networks ul li a:hover {
+    color:#fff;
+}
+
+
+.img-holder {
+    background-color:black
+}
+
+
+/* ABOUT US */
+
+#about-us-section .about-us>h3 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #9999cc;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    display: block;
+    margin-bottom: 5%;
+}
+
+#about-us-section h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    display: inline;
+    font-weight: 500;
+
+}
+
+#about-us-section p {
+    font-size: 15px;
+    font-family: 'Raleway';
+    color: #312f30;
+    line-height: 28px;
+}
+
+#our-vision,
+#our-mission,
+#behind-brand,
+#history,
+#our-products,
+#why-us {
+    display: -webkit-box;
+    margin-bottom:5%;
+}
+
+.our-vision,
+.our-mission,
+.behind-brand,
+.history,
+.our-products,
+.why-us {
+    padding-left: 5%;
+    width:90%;
+}
+
+.fas.fa-paper-plane,
+.far.fa-eye,
+.far.fa-gem,
+.far.fa-calendar-alt,
+.far.fa-heart,
+.far.fa-question-circle {
+    font-size: 3em;
+    color: #9999cc
+}
+
+/* ABOUT US*/
+
+/* GALLERY SLIDER */
+
+.owl-item>div {
+    padding-right: 2%;
+}
+/* GALLERY SLIDE */
+
+
+/* PRODUCT STYLE TABS */
+.tab {
+    overflow: hidden;
+    border: 1px solid #9999cc;
+    background-color: #efefef;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: #efefef;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 16px 16px;
+    transition: 0.3s;
+    font-size: 1em;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #9999cc;
+    color: #fff;
+    font-family: 'roboto';
+    font-size: 1.5em;
+    line-height: 50px;
+    padding: 0 2%;
+}
+
+.product-images {
+    width: 50%;
+    float:right
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    text-align: center;
+    font-size: 1.3em;
+    letter-spacing: 2;
+    font-family: 'roboto', sans-serif;
+}
+
+#Product-1 {
+    display: block
+}
+
+.tabcontent ul li {
+    list-style-type: none;
+    padding: 1%;
+}
+
+#Product-6 ul li {
+    display: -webkit-box
+}
+
+
+/* PRODUCT STYLE TABS */
+
+.services>h3,
+#products h3 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #9999cc;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    display: block;
+    color: #333;
+    margin-bottom: 5%;
+}
+.product-description {
+    width: 100%;
+    padding: 2%;
+}
+.product-description h3 {
+    color: #333;
+    margin-top: 0
+}
+.product-description p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 1;
+    width: 50%;
+    float: left;
+}
+
+.product-images img {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.product-images img:hover  {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#products img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 6%;
+}
+
+#footer {
+    background-color: black;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'roboto', sans-serif;
+    padding: 2%;
+}
+
+#footer ul li {
+    list-style-type:none; 
+}
+
+#footer img {
+    width: 100%;
+}
